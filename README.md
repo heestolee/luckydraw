@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LuckyDraw
 
-## Getting Started
+럭키드로우는 캡슐 순서 뽑기 애플리케이션 입니다.
 
-First, run the development server:
+## How to use
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![example](public/luckydraw-example.gif)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. 상단 입력창에 입력하고 추가하면 박스 안에 캡슐이 추가됩니다.
+2. 선택후 뽑기 시작! 버튼을 누르면 랜덤으로 순서 뽑기를 실행합니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<br><br><br>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![alt text](public/luckydraw-reset.gif)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **결과 리셋** : 같은 구성으로 다시 뽑기를 실행할 수 있습니다. 캡슐을 더 추가할 수도 있습니다.
+- **초기화** : 생성한 캡슐을 모두 없애고 초기 상태로 돌아갑니다.
