@@ -1,3 +1,4 @@
+@import "pretendard/dist/web/static/pretendard.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,8 +15,23 @@
   }
 }
 
+@keyframes appear {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-shake {
+  animation: shake 0.3s ease-in-out infinite;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Pretendard", sans-serif;
 }
